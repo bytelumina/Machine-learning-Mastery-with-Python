@@ -1,0 +1,80 @@
+,datatype,Feature_desc,Feature_type
+MSSubClass,int64,Identifies the type of dwelling involved in the sale.,nominal
+MSZoning,object,Identifies the general zoning classification of the sale.,nominal
+LotFrontage,float64,Linear feet of street connected to property,numeric
+LotArea,int64,Lot size in square feet,numeric
+Street,object,Type of road access to property,nominal
+Alley,object,Type of alley access to property,nominal
+LotShape,object,General shape of property,nominal
+LandContour,object,Flatness of the property,nominal
+Utilities,object,Type of utilities available,nominal
+LotConfig,object,Lot configuration,nominal
+LandSlope,object,Slope of property,nominal
+Neighborhood,object,Physical locations within Ames city limits,nominal
+Condition1,object,Proximity to various conditions,nominal
+Condition2,object,Proximity to various conditions (if more than one is present),nominal
+BldgType,object,Type of dwelling,nominal
+HouseStyle,object,Style of dwelling,nominal
+OverallQual,int64,Rates the overall material and finish of the house,ordinal
+OverallCond,int64,Rates the overall condition of the house,ordinal
+YearBuilt,int64,Original construction date,datetime
+YearRemodAdd,int64,Remodel date (same as construction date if no remodeling or additions),datetime
+RoofStyle,object,Type of roof,nominal
+RoofMatl,object,Roof material,nominal
+Exterior1st,object,Exterior covering on house,nominal
+Exterior2nd,object,Exterior covering on house (if more than one material),nominal
+MasVnrType,object,Masonry veneer type,nominal
+MasVnrArea,float64,Masonry veneer area in square feet,numeric
+ExterQual,object,Evaluates the quality of the material on the exterior,ordinal
+ExterCond,object,Evaluates the present condition of the material on the exterior,ordinal
+Foundation,object,Type of foundation,nominal
+BsmtQual,object,Evaluates the height of the basement,ordinal
+BsmtCond,object,Evaluates the general condition of the basement,ordinal
+BsmtExposure,object,Refers to walkout or garden level walls,ordinal
+BsmtFinType1,object,Rating of basement finished area,ordinal
+BsmtFinSF1,int64,Type 1 finished square feet,numeric
+BsmtFinType2,object,Rating of basement finished area (if multiple types),ordinal
+BsmtFinSF2,int64,Type 2 finished square feet,numeric
+BsmtUnfSF,int64,Unfinished square feet of basement area,numeric
+TotalBsmtSF,int64,Total square feet of basement area,numeric
+Heating,object,Type of heating,nominal
+HeatingQC,object,Heating quality and condition,ordinal
+CentralAir,object,Central air conditioning,nominal
+Electrical,object,Electrical system,nominal
+1stFlrSF,int64,First Floor square feet,numeric
+2ndFlrSF,int64,Second floor square feet,numeric
+LowQualFinSF,int64,Low quality finished square feet (all floors),numeric
+GrLivArea,int64,Above grade (ground) living area square feet,numeric
+BsmtFullBath,int64,Basement full bathrooms,nominal
+BsmtHalfBath,int64,Basement half bathrooms,nominal
+FullBath,int64,Full bathrooms above grade,nominal
+HalfBath,int64,Half baths above grade,nominal
+BedroomAbvGr,int64,Bedrooms above grade (does NOT include basement bedrooms),numeric
+KitchenAbvGr,int64,Kitchens above grade,numeric
+KitchenQual,object,Kitchen quality,ordinal
+TotRmsAbvGrd,int64,Total rooms above grade (does not include bathrooms),nominal
+Functional,object,Home functionality (Assume typical unless deductions are warranted),nominal
+Fireplaces,int64,Number of fireplaces,nominal
+FireplaceQu,object,Fireplace quality,ordinal
+GarageType,object,Garage location,nominal
+GarageYrBlt,float64,Year garage was built,datetime
+GarageFinish,object,Interior finish of the garage,nominal
+GarageCars,int64,Size of garage in car capacity,nominal
+GarageArea,int64,Size of garage in square feet,numeric
+GarageQual,object,Garage quality,ordinal
+GarageCond,object,Garage condition,ordinal
+PavedDrive,object,Paved driveway,nominal
+WoodDeckSF,int64,Wood deck area in square feet,numeric
+OpenPorchSF,int64,Open porch area in square feet,numeric
+EnclosedPorch,int64,Enclosed porch area in square feet,numeric
+3SsnPorch,int64,Three season porch area in square feet,numeric
+ScreenPorch,int64,Screen porch area in square feet,numeric
+PoolArea,int64,Pool area in square feet,numeric
+PoolQC,object,Pool quality,ordinal
+Fence,object,Fence quality,ordinal
+MiscFeature,object,Miscellaneous feature not covered in other categories,nominal
+MiscVal,int64,$Value of miscellaneous feature,numeric
+MoSold,int64,Month Sold (MM),datetime
+YrSold,int64,Year Sold (YYYY),datetime
+SaleType,object,Type of sale,nominal
+SaleCondition,object,Condition of sale,nominal
